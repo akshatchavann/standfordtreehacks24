@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background-color: #0e1117;
+  /* Sets the background color of the app */
+  min-height: 100vh;
+  /* Makes sure the app fills at least the full height of the viewport */
+  color: #fff;
+  /* Adjusts the text color for better readability against the dark background */
+}
+
+body,
+html {
+  background-color: #0e1117;
+  /* Dark background */
+  margin: 0;
+  /* Remove default margin */
+  padding: 0;
+  /* Remove default padding */
+  color: #fff;
+  /* Set default text color to white */
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.question {
+  font-size: 115%;
+  margin-bottom: 1.5%;
+  padding-top: 2%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-enter-active {
+  opacity: 1;
+}
+
+.fade-exit {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+}
+
+.fade-exit-active {
+  opacity: 0;
+}
+
+
+.heart-rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the children horizontally in the container */
+  justify-content: center; /* This centers the children vertically in the container, if needed */
+  text-align: center; /* Ensures text is also centered, useful for the <h4> */
+  width: 100%; /* Ensures the div takes full width of its parent, adjust as necessary */
+  padding-top: 3%;
+}
+
+
+.nurse-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.faceStyle{
+  padding-top: 2%;
+}
+
+.webcam-overlay {
+  position: absolute;
+  bottom: 3%;
+  right: 1%;
+  width: 22%;
+  height: 32%;
+  border-radius: 15px;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add a grey light line above the footer */
+footer .col-12 {
+  border-top: 1px solid #8d838354;
+  /* Light grey border */
+}

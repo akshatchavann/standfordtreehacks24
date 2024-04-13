@@ -1,3 +1,6 @@
+DEMO -  https://www.youtube.com/watch?v=-oBvSqdik_0
+
+
 MediLife is an integrated platform that 1) monitors vital indicators of senior citizen health including head movement, heart rate, and facial positioning 2) releases an AI agent that provides medical directives immediately after detection of abnormal vital signs (ex. cardiac arrest, faints, falls) and 3) notifies first respondents and provides a summarized report of time of emergency, medical history, and current medications. MediLife aims to significantly improve efficiency of medical treatment within the first 20 minutes of a senior citizen emergency.
 
 
